@@ -1,10 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Typescript + Tailwind + Eslint & Stylistic
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to your Nuxt 3 project, powered by Tailwind CSS and enhanced with Eslint & Stylistic for clean and efficient development. Explore the following documentation for comprehensive guidance:
+
+- [Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Eslint & Stylistic](https://eslint.org/)
 
 ## Setup
 
-Make sure to install the dependencies:
+Ensure you have all the dependencies installed with a single command. Choose your preferred package manager:
 
 ```bash
 # npm
@@ -22,7 +26,7 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Kickstart the development server and witness your project come to life at `http://localhost:3000`:
 
 ```bash
 # npm
@@ -40,7 +44,7 @@ bun run dev
 
 ## Production
 
-Build the application for production:
+Ready to unveil your masterpiece to the world? Build the application for production with ease:
 
 ```bash
 # npm
@@ -56,7 +60,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Preview the production build locally before deployment:
 
 ```bash
 # npm
@@ -72,4 +76,6 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+For further details and advanced features, refer to the respective official documentation links provided above.
+
+Happy coding! 🚀
