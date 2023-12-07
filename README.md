@@ -1,10 +1,11 @@
-# Nuxt 3 + Typescript + Tailwind + Eslint & Stylistic
+# Nuxt 3 + Typescript + Tailwind + Eslint & Stylistic + Vitest
 
 Welcome to your Nuxt 3 project, powered by Tailwind CSS and enhanced with Eslint & Stylistic for clean and efficient development. Explore the following documentation for comprehensive guidance:
 
 - [Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [Eslint & Stylistic](https://eslint.org/)
+- [Vitest](https://vitest.dev/) for Unit Testing
 
 ## Setup
 
@@ -74,6 +75,24 @@ yarn preview
 
 # bun
 bun run preview
+```
+
+## Unit Testing with Vitest
+
+Ensure your code is robust by adding unit tests with Vitest. Run the tests with the following command:
+
+```bash
+# npm
+npm run test
+
+# pnpm
+pnpm run test
+
+# yarn
+yarn test
+
+# bun
+bun run test
 ```
 
 For further details and advanced features, refer to the respective official documentation links provided above.
