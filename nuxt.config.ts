@@ -18,6 +18,9 @@ export default defineNuxtConfig({
       }
     }
   },
+  // components: {
+  //   dirs: []
+  // },
   modules: [ '@nuxtjs/google-fonts' ],
   googleFonts: {
     download: true,
