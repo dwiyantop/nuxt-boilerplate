@@ -14,8 +14,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint --ext .ts,.js,.vue .",
     "lint-fix": "eslint --fix --ext .ts,.js,.vue .",
-    "test": "vitest --config vitest.config.ts",
-    "test-coverage": "vitest --config vitest.config.ts --coverage",
+    "test": "vitest run --config vitest.config.ts",
+    "test-coverage": "vitest run --config vitest.config.ts --coverage",
     "cm": "git add . && cz"
   },
   "devDependencies": {
